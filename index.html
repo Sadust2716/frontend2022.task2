@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>ИКИТ СФУ</title>
+</head>
+<body>
+    <header class="menu">
+        <div class="menu__content container">
+            <div class="menu__leading-content">
+                <img class="menu__logo" src="img/logo.png" alt="logo">
+                <nav>
+                    <ul class="menu__nav nav">
+                        <li class="nav__item nav__item--current"><a href="#">Главная</a></li>
+                        <li class="nav__item"><a href="#">Информация</a></li>
+                        <li class="nav__item"><a href="#">Новости</a></li>
+                        <li class="nav__item"><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu__profile profile">
+                <p class="profile__name">Ваше имя</p>
+                <img class="profile__avatar" src="img/avatar.svg" alt="avatar">
+            </div>
+        </div>
+    </header>
+    <section class="main container">
+        <header class="main__heading">
+            <h2 class="main__header">Личная страница</h2>
+        </header>
+        <section class="main__useful-info useful-info">
+            <header class="useful-info__heading">
+                <h3 class="useful-info__header">Полезная информация</h3>
+            </header>
+            <section class="useful-info__sidebar sidebar">
+                <h4 class="sidebar__header">Новое:</h4>
+                <ul class="sidebar__items">
+                    <li class="sidebar__item">Отдел хозяйственного обеспечения</li>
+                    <li class="sidebar__item">Анкета для работодателя</li>
+                    <li class="sidebar__item">Студенческое научное сообщество СФУ</li>
+                    <li class="sidebar__item">Удостоверяющий центр</li>
+                </ul>
+            </section>
+            <section class="useful-info__news news">
+                <h4 class="news__title">Основные статьи СФУ</h4>
+                <section class="news__section">
+                    <h5 class="news__subtitle"> 
+                        20 января - Молодые учёные обсу­дили с губер­на­тором планы по привле­чению студентов в науку</h5>
+                    <p class="news__text">
+                        В СФУ состоялась встреча членов Совета молодых учёных и специалистов при Губернаторе Красноярского края
+                        под председательством главы региона Александра Усса. В заседании приняли участие в том числе представители
+                        Красноярского краевого фонда поддержки научной и научно-технической деятельности.
+                    </p>
+                </section>
+                <section class="news__section">
+                    <h5 class="news__subtitle"> 
+                        19 января - Учёный из СФУ создал программу-пред­ска­за­тель новых хими­че­ских соединений</h5>
+                    <p class="news__text">
+                        Учёный СФУ Максим Молокеев предложил использовать машинное обучение для обнаружения взаимосвязи между 
+                        химической формулой неорганических красных и инфракрасных люминофоров и длиной волны излучения, 
+                        а также полушириной максимума излучения.
+                    </p>
+                </section>
+            </section>
+        </section>
+        <section class="main__articles articles">
+            <header class="articles__heading">
+                <hgroup>
+                    <h3 class="articles__header">Интересные статьи</h3>
+                    <p class="articles__description">Чем можно удивить студента сегодня</p>
+                </hgroup>
+            </header>
+            <article class="articles__article article">
+                <img class="article__image" src="img/Image1.png" alt="imageOfArticle1">
+                <a class="article__link">
+                    <h4 class="article__header">Почему цифровые технологии вытесняют аналоговые</h4>
+                </a>
+                <p class="article__description">
+                    Основы современной двоичной системы счисления заложил математик Карл Лейбниц в XVII веке. 
+                    В ХХ веке ее начали применять для программных вычислений: в 1941 году появился первый компьютер, а в 1948-м — первая программа для ЭВМ.
+                </p>
+                <div class="article__spacer-box"></div>
+                <header class="article__add-info">
+                    <p><time datetime="2021-05-19">May 19, 2021</time> · 7 min read</p>
+                </header>
+            </article>
+            <article class="articles__article article">
+                <img class="article__image" src="img/Image2.png" alt="imageOfArticle2">
+                <a class="article__link">
+                    <h4 class="article__header">Дизайн интерьера</h4>
+                </a>
+                <p class="article__description">
+                    это искусство и наука улучшения интерьера здания для достижения более здоровой и эстетически приятной среды для людей, 
+                    использующих это пространство. Дизайнер интерьера-это тот, кто планирует, исследует, координирует и управляет такими проектами улучшения.
+                </p>
+                <div class="article__spacer-box"></div>
+                <header class="article__add-info">
+                    <p><time datetime="2021-05-05">May 5, 2021</time> · 8 min read</p>
+                </header>
+            </article>
+            <article class="articles__article article">
+                <img class="article__image" src="img/Image3.png" alt="imageOfArticle3">
+                <a class="article__link">
+                    <h4 class="article__header">Приоритет — качество образования</h4>
+                </a>
+                <p class="article__description">
+                    Сегодня университетам недостаточно быть просто учреждениями по трансферу знаний. 
+                    Как не может претендовать на лидерство тот вуз, где ограничиваются чтением лекций по «годами проверенным» методичкам.
+                </p>
+                <div class="article__spacer-box"></div>
+                <header class="article__add-info">
+                    <p><time class="article__time" datetime="2020-02-12">Feb 12, 2020</time> · 10 min read</p>
+                </header>
+            </article>
+        </section>
+    </section>
+    <footer class="footer">
+        <p class="footer__copyright">© 2022 Институт космических и информационных технологий СФУ</p>
+    </footer>
+</body>
+</html>
